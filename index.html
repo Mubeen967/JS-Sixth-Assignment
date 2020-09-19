@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
 </head>
+
 <body>
+    <div class="container">
+        <div class="text-center">
+            <div>
+                <h1 style="text-shadow: 2px 2px 8px maroon;">To DO App</h1>
+            </div>
+            <div class="mt-3 ">
+                <input class="w-50" type="text" id="todoapp" placeholder="Enter Todo" >
+               
+            </div> 
+            <div class="mt-2 borderr pt-2 ">
+                <button class="btn btn-danger" onclick="addtodo();">Add Item</button>
+                <button class="btn btn-danger" onclick="delAll();">Delete All</button>
     
+            </div> 
+        </div>
+
+    </div>
+    <div >
+        <ul id="list">
+
+        </ul>
+    </div>
 </body>
+
 <script src="app.js"></script>
+
 </html>

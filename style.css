@@ -1,0 +1,30 @@
+/* body{
+    text-align: center !important;
+} */
+li{
+    list-style: none;
+    padding-left: 30%;
+ 
+}
+
+.borderr{
+     border-bottom : 2px solid green !important;
+    padding: 6px;
+  
+    
+}
+.alert-info{
+    color:wheat !important;
+    border-radius: 10px;
+    background-color: rgb(39, 35, 41) !important;
+    margin: 4px;
+    padding: 10px;
+
+
+}
+input{
+    background-color: rgb(233, 222, 233);
+}
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131__340.jpg");
+}
